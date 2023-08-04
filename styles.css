@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: whitesmoke;
+  overflow-x: hidden; /* Hide horizontal overflow */
+
+}
+
+.redirect-name {
+  font-size: 20px;
+  font-weight: bolder;
+  padding-top: 3px;
+  padding-left: 50px;
+  cursor: pointer;
+}
+
+.Projects {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 30%;
+  padding-top: 1%;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.About {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 26%;
+  padding-top: 1%;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Email {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 5%;
+  padding-top: 1%;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Head_Name {
+  font-size: 110px;
+  padding-top: 0px;
+  padding-left: 50px;
+  font-weight: 800;
+  opacity: 0; /* Start with 0 opacity */
+  transform: translateY(50px); /* Start position below by 50px */
+  animation: slide 1s forwards; /* Apply the animation */
+}
+
+@keyframes slide {
+  to {
+    opacity: 1; /* Move to full opacity */
+    transform: translateY(0); /* Move to original position */
+  }
+}
+
+
+.Head_Name p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.Head_Info {
+  font-size: 40px;
+  padding-top: 0px;
+  padding-left: 50px;
+  font-weight: 600;
+  opacity: 0;
+  transform: translateX(-180px); /* Start position below by 50px */
+  animation: slide 1s forwards; /* Apply the animation */
+}
+
+.Explore_Me {
+  font-size: 40px;
+  padding-top: 0px;
+  padding-left: 50px;
+  font-weight: 300;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.selected_Work {
+  font-size: 20px;
+  padding-top: 0px;
+  padding-left: 50px;
+  font-weight: 600;
+}
+
+.discover {
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  padding-right: 5%;
+  padding-top: 0px;
+  font-weight: 400;
+}
+
+.Pixel_Adventure {
+  font-size: 18px;
+  padding-top: 0px;
+  padding-left: 40px;
+  font-weight: 600;
+}
+
+.Horizon-AI {
+  font-size: 18px;
+  padding-top: 0px;
+  padding-left: 50px;
+  font-weight: 600;
+}
+
+.YimMenu{
+  font-size: 18px;
+  padding-top: 0px;
+  padding-left: 50px;
+  font-weight: 600;
+}
+
+
+.Normal_Info {
+  font-size: 28px;
+  padding-top: 0px;
+  padding-left: 50px;
+  font-weight: 500;
+  display: flex;
+}
+
+
+
+.Normal_Info_Num {
+  font-size: 20px;
+}
+
+.Normal_Info_Text {
+  font-weight: 600;
+  font-size: 40px;
+  padding-right: 5%;
+}
+
+footer{
+  padding-left: 60px;
+  font-weight: 600;
+  font-size: larger;
+}
+
+@keyframes shakyJitter {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-2px);
+  }
+  40% {
+    transform: translateX(1px);
+  }
+  60% {
+    transform: translateX(-2px);
+  }
+  80% {
+    transform: translateX(1px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.Email:hover {
+  text-decoration-color: red;
+  text-decoration: underline;
+  color: blue;
+}
+
+.Explore_Me:hover {
+  animation: shakyJitter 0.3s;
+}
+
+
+
+.Pixel_Adventure_Image:hover, .Horizon-AI-img {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.02);
+  filter: brightness(1);
+}
+
+.Pixel_Adventure_Image, .Horizon-AI-img {
+  transition: transform 0.3s ease-in-out;
+}
