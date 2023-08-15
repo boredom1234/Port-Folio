@@ -1,0 +1,30 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative; /* Add this for positioning overlay */
+    filter: brightness(0.7); /* Adjust the brightness value */
+}
+
+.parallax::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Adjust the opacity to your preference */
+    z-index: -1;
+}
+
+/* Rest of your existing CSS styles */

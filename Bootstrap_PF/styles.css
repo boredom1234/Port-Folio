@@ -1,0 +1,71 @@
+body {
+    background: #222;
+    color: #fff;
+    font: 400 16px/1.5 'Arial', sans-serif;
+}
+
+.navbar {
+    background: #111;
+}
+
+.navbar-brand {
+    font: 700 24px 'Arial', sans-serif;
+}
+
+.navbar-toggler-icon {
+    background: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 50px;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.carousel-text {
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.carousel-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.carousel-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background: #3f87f5;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background: #2973e6;
+}
+
+.nav-link i, .carousel-text i {
+    font-size: 24px;
+    margin-right: 10px;
+}

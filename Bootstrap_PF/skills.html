@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="skills-styles.css">
+</head>
+<body>
+    <!-- Hero Section 1 -->
+    <section class="hero hero-1">
+        <div class="container">
+            <h1>Your Skills</h1>
+            <p>Showcasing your talents and expertise.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <div class="container">
+            <!-- <h2>Skills Overview</h2> -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="skill">
+                        <h3>Web Development</h3>
+                        <p>HTML, CSS, JavaScript, NodeJS</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill">
+                        <h3>Game Development</h3>
+                        <p>Unity</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill">
+                        <h3>Mod Developer</h3>
+                        <p>Cheat Engine, IDA, Ghidra, ASM</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill">
+                        <h3>Editing</h3>
+                        <p>Photoshop, Lightroom</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Web Development Skill -->
+    <div class="modal fade" id="webDevModal" tabindex="-1" role="dialog" aria-labelledby="webDevModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="webDevModalLabel">Web Development</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Here's some detailed information about web development </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
